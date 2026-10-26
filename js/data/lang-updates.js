@@ -468,7 +468,7 @@
     ["Cooperativo: los Pokémon con Sequía, Llovizna, Chorro Arena o Nevada ponen su clima también si no son el anfitrión (antes sólo funcionaba el del creador de la sala).",
      "Coopération : les Pokémon avec Sécheresse, Crachin, Sable Volant ou Alerte Neige installent leur météo même s’ils ne sont pas l’hôte (avant, seule celle du créateur du salon marchait).",
      "Cooperativa: i Pokémon con Siccità, Piovischio, Sabbiafiume o Scendineve mettono il loro meteo anche se non sono l’host (prima funzionava solo quello di chi creava la stanza).",
-     "Cooperativo: os Pokémon com Seca, Garoa, Fluxo de Areia ou Aviso de Neve colocam seu clima mesmo se não forem o anfitrião (antes só funcionava o de quem criou a sala).",
+     "Cooperativo: os Pokémon com Drought, Drizzle, Sand Stream ou Snow Warning colocam seu clima mesmo se não forem o anfitrião (antes só funcionava o de quem criou a sala).",
      "合作模式：拥有日照、降雨、扬沙或降雪特性的宝可梦即使不是房主也能改变天气（以前只有房主的有效）。",
      "合作模式：擁有日照、降雨、揚沙或降雪特性的寶可夢即使不是房主也能改變天氣（以前只有房主的有效）。"],
     ["Cooperativo: la partida ya no se queda parada para todos si se pierde el aviso de que alguien ha terminado de elegir carta, objeto o vínculo (pasaba con un corte momentáneo de la conexión): ahora se comprueba en cada mensaje.",
