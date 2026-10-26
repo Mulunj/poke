@@ -1261,5 +1261,10 @@ G.I18n.add({
   "Ya la has reportado": "Você já denunciou",
   "Ya has reportado esta marca": "Você já denunciou este recorde",
   "¿Reportar la marca de {x} como trampa?": "Denunciar o recorde de {x} como trapaça?",
-  "Gracias: la revisaremos": "Obrigado: vamos analisar"
+  "Gracias: la revisaremos": "Obrigado: vamos analisar",
+  // Pokémon Paradoxo: no Brasil os nomes oficiais são os do inglês
+  "Colmilargo": "Great Tusk", "Colagrito": "Scream Tail", "Melenaleteo": "Flutter Mane", "Reptalada": "Slither Wing",
+  "Pelarena": "Sandy Shocks", "Bramaluna": "Roaring Moon", "Ondulagua": "Walking Wake",
+  "Ferrosaco": "Iron Bundle", "Ferropalmas": "Iron Hands", "Ferropolilla": "Iron Moth", "Ferropúas": "Iron Thorns",
+  "Ferropaladín": "Iron Valiant", "Ferroverdor": "Iron Leaves"
 }, 'pt-BR');

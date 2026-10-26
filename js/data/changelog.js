@@ -6,6 +6,10 @@
  * Cada línea en español y en inglés.
  */
 G.CHANGELOG = [
+  { d: '2026-10-26', title: ['Los Pokémon paradoja, con su nombre en cada idioma', 'Paradox Pokémon, with their name in every language'], fix: [
+    ['Los Pokémon paradoja (Colmilargo, Ferropaladín, Bramaluna...) salían con su nombre en español también en inglés, italiano y portugués. Ahora salen con el nombre oficial de cada idioma.',
+     'Paradox Pokémon (Great Tusk, Iron Valiant, Roaring Moon...) showed their Spanish names in English, Italian and Portuguese too. Now they show the official name in each language.']
+  ] },
   { d: '2026-10-25', title: ['Tickets y Pokémon iguales en todos tus aparatos', 'The same tickets and Pokémon on all your devices'], new: [
     ['Al acabar la partida, sola o en grupo, sale el resumen: cada ataque con el daño que ha hecho y su daño por segundo, el daño total y tu objeto. En grupo, también el de cada compañero, con una pestaña por jugador.',
      'When a run ends, solo or in a group, you get the summary: each move with the damage it dealt and its damage per second, your total damage and your item. In a group, also each teammate’s, with one tab per player.'],

@@ -141,13 +141,13 @@ def crumbs(pid, lang, name):
         {'@type': 'ListItem', 'position': 1, 'name': 'PokéSurvivor', 'item': SITE + PATH[lang]['home']},
         {'@type': 'ListItem', 'position': 2, 'name': name, 'item': SITE + PATH[lang][pid]}]}
 
-def sprite(d, shiny=False, up='../', anim='Idle'):
+def sprite(d, shiny=False, up='../', anim='Idle', lang='es'):
     m = META.get(d, {}).get('a', {}).get(anim)
     if not m: return ''
     k = 2 if max(m['w'], m['h']) <= 48 else 1
     src = f'{up}assets/pokemon/{d}/{"s/" if shiny else ""}{anim}.png'
     return (f'<span class="spr" style="width:{m["w"] * k}px;height:{m["h"] * k}px"><img loading="lazy" decoding="async" src="{src}" '
-            f'width="{m["w"]}" height="{m["h"]}" style="transform:scale({k})" alt="{esc(BY[d]["name"])}{" shiny" if shiny else ""}"></span>')
+            f'width="{m["w"]}" height="{m["h"]}" style="transform:scale({k})" alt="{esc(L(lang, BY[d]["name"]))}{" shiny" if shiny else ""}"></span>')
 
 def upof(pid, lang): return '../' * PATH[lang][pid].count('/')
 def cta(pid, lang, text):
@@ -287,7 +287,7 @@ def dexcard(e, lang, up):
     d = e['dex']
     tag = f'<b class="leg">{"Legendario" if lang == "es" else "Legendary"}</b>' if d in LEG else (
           f'<b class="st">{"Inicial" if lang == "es" else "Starter"}</b>' if e.get('starter') else '')
-    return (f'<li id="p{d}">{sprite(d, up=up)}<span class="n">#{d:03d}</span><span class="nm">{esc(e["name"])}</span>'
+    return (f'<li id="p{d}">{sprite(d, up=up, lang=lang)}<span class="n">#{d:03d}</span><span class="nm">{esc(L(lang, e["name"]))}</span>'
             f'<span class="tys">{"".join(tbadge(t, lang) for t in e.get("types", []))}</span>{tag}</li>')
 
 def pokedex(lang):

@@ -1022,5 +1022,11 @@ G.I18n.add({
   "Ranking de daño a Arceus y Tablas": "Arceus damage ranking and Plates",
   "EN DIRECTO": "LIVE",
   "Mi canal de YouTube": "My YouTube channel",
-  "¡Estoy en directo! Pulsa para verlo": "I'm live! Click to watch"
+  "¡Estoy en directo! Pulsa para verlo": "I'm live! Click to watch",
+
+  // ---------------- Pokémon paradoja (en pokedex.js van con su nombre en español) ----------------
+  "Colmilargo": "Great Tusk", "Colagrito": "Scream Tail", "Melenaleteo": "Flutter Mane", "Reptalada": "Slither Wing",
+  "Pelarena": "Sandy Shocks", "Bramaluna": "Roaring Moon", "Ondulagua": "Walking Wake",
+  "Ferrosaco": "Iron Bundle", "Ferropalmas": "Iron Hands", "Ferropolilla": "Iron Moth", "Ferropúas": "Iron Thorns",
+  "Ferropaladín": "Iron Valiant", "Ferroverdor": "Iron Leaves"
 });
