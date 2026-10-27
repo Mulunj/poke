@@ -29,6 +29,14 @@ G.CHANGELOG = [
     ["Cooperativo: con una conexión lenta, un jugador podía ver la partida minutos tarde (hasta más de 4 minutos por detrás de los demás), y en la Sentencia de Arceus era un caos. Ahora, si la conexión no da para más, el juego espera a que se ponga al día en vez de amontonar lo que falta por llegar: como mucho, la partida se para un momento («esperando al anfitrión»), pero va siempre al día.",
      "Co-op: with a slow connection, a player could see the run minutes late (more than 4 minutes behind the others), and Arceus's Judgment turned into chaos. Now, if the connection cannot keep up, the game waits for it to catch up instead of piling up what has yet to arrive: at worst the run pauses for a moment (\"waiting for the host\"), but it is always up to date."]
   ]},
+  { d: '2026-10-27', title: ['20 ataques populares, objetos de apoyo y Pulsera Z', '20 popular moves, support items and Z-Ring'], new: [
+    ['20 ataques muy usados en los juegos que aún no estaban: Puño Fuego, Puño Trueno, Puño Hielo, Cascada, Acua Jet, Hoja Aguda, Voltiocambio, Placaje Eléctrico, Excavar, Cola Férrea, Recuperación, Paz Mental... cada uno con su evolución.',
+     '20 moves that are very common in the games and were still missing: Fire Punch, Thunder Punch, Ice Punch, Waterfall, Aqua Jet, Leaf Blade, Volt Switch, Volt Tackle, Dig, Iron Tail, Recover, Calm Mind... each with its evolution.'],
+    ['Objetos de apoyo: salen en las cartas de subir de nivel y se pueden llevar hasta 6 a la vez, cada uno con hasta 5 niveles: Cinta Experto, Polvo Veloz, Hierba Única, Periscopio, Mineral Evolutivo, Más PS, Miel, Raíz Grande, Refleluz, Revivir, Repartir Experiencia, Pepita, Lodo Negro y Lupa. Se ven arriba a la izquierda y en el resumen de la pausa.',
+     'Support items: they show up in the level-up cards and you can carry up to 6 at once, each with up to 5 levels: Expert Belt, Quick Powder, Power Herb, Scope Lens, Eviolite, HP Up, Honey, Big Root, Light Clay, Revive, Exp. Share, Nugget, Black Sludge and Wide Lens. They show at the top left and in the pause summary.'],
+    ['Objeto nuevo, Pulsera Z: todos tus movimientos se lanzan a la vez.',
+     'New item, Z-Ring: all your moves fire at once.']
+  ] },
   { d: '2026-10-26', title: ["Halloween se acerca", "Halloween is coming"], new: [
     ["Evento de Halloween del 30 de octubre al 1 de noviembre (hora de España). Lo que trae, lo descubrirás jugando.",
      "Halloween event from October 30 to November 1 (Spain time). What it brings, you will find out by playing."],
