@@ -100,7 +100,9 @@ G.CHANGELOG = [
     ['Ranking histórico: si tu marca no entraba en el top 50, el ranking seguía enseñando la vieja durante horas, y al mirar tu puesto una partida peor podía sustituir a la mejor que aún no se había subido. Ahora sale tu mejor marca al momento y no se pierde.',
      'All-time ranking: if your time did not make the top 50, the ranking kept showing your old one for hours, and checking your rank could let a worse run replace the better one that had not been uploaded yet. Now your best time shows up right away and is never lost.'],
     ['Con el juego abierto en dos pestañas del mismo navegador, lo conseguido o gastado en una ya no se pierde al usar la otra: las dos se pasan los cambios al momento.',
-     'With the game open in two tabs of the same browser, what you get or spend in one is no longer lost when you use the other: both share their changes right away.']
+     'With the game open in two tabs of the same browser, what you get or spend in one is no longer lost when you use the other: both share their changes right away.'],
+    ['Colección en el ordenador: con la ficha más larga (los iconos de los ataques al doble), al bajar para verlos se iban el título y los filtros por arriba y bajo la lista quedaba un hueco vacío. Ahora la lista ocupa todo el alto, la ficha se desplaza por su lado y el botón de elegir compañero está siempre a la vista.',
+     'Collection on computers: with the longer Pokémon card (move icons at double size), scrolling down to see them pushed the title and filters off the top and left an empty gap under the list. Now the list fills the whole height, the card scrolls on its own and the button to pick your partner is always visible.']
   ]},
   { d: '2026-10-24', title: ['Ataques en la colección y ventanas del menú', 'Moves in the collection and menu windows'], chg: [
     ['Colección: los iconos de los ataques que puede aprender cada Pokémon son el doble de grandes y, al pasar el ratón (o al tocarlos en el móvil), dicen su tipo, si es físico o especial y lo que hace.',

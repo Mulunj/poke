@@ -1015,6 +1015,21 @@ a.btn { text-decoration: none; display: inline-block; color: var(--ink); }
   #dex-detail > .btn { position: sticky; bottom: 0; order: 9; margin-top: auto; padding: 8px 6px; font-size: 15px;
     box-shadow: 0 -6px 10px rgba(5,10,25,.6); }
 }
+/* ============ Pokémon en el ordenador (25-10-2026) ============
+ * Con los iconos de ataques al doble, la ficha era más alta que la pantalla: se
+ * desplazaba toda la caja (el título y los filtros se iban por arriba) y bajo la
+ * rejilla (56vh) quedaba un hueco vacío. Ahora la caja ocupa el alto disponible
+ * y la lista y la ficha se desplazan cada una por su lado, con el botón de
+ * elegir siempre a la vista abajo. */
+@media (min-width: 761px) and (min-height: 521px) {
+  #scr-dex .box { height: 100%; display: flex; flex-direction: column; }
+  #scr-dex .gen-tabs { flex: 0 0 auto; }
+  #scr-dex .split { flex: 1; min-height: 0; }
+  #scr-dex .split > div:first-child { display: flex; flex-direction: column; min-height: 0; min-width: 0; }
+  #scr-dex .grid { max-height: none; flex: 1; min-height: 0; align-content: start; }
+  #dex-detail { min-height: 0; overflow-y: auto; }
+  #dex-detail > .btn { position: sticky; bottom: 0; box-shadow: 0 -6px 10px rgba(5,10,25,.6); }
+}
 
 /* Local CJK fonts: no font service or additional downloads. */
 html:lang(zh-Hant) { --font: 'Pixelify', 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans CJK TC', system-ui, sans-serif; }
