@@ -6,6 +6,10 @@
  * Cada línea en español y en inglés.
  */
 G.CHANGELOG = [
+  { d: '2026-10-28', title: ['Los orbes ya te alcanzan', 'Orbs catch up with you again'], fix: [
+    ['Con mucha velocidad (mejoras, buffs o clima), la experiencia y los objetos que atraías se quedaban atrás y no llegaban nunca. Ahora siempre van más rápido que tú.',
+     'With high speed (upgrades, buffs or weather), the experience and items you pulled in fell behind and never reached you. Now they are always faster than you.']
+  ] },
   { d: '2026-10-27', title: ["Cooperativo más estable", "Steadier co-op"], new: [
     ["Móvil y tableta: nuevo joystick «Anclado» (Ajustes → Controles → Colocar los botones). Aparece donde pones el dedo y se queda en ese sitio mientras lo mantienes, aunque alejes el dedo; al levantarlo y tocar en otro sitio, aparece allí. El «Flotante» de siempre sigue al dedo y sigue siendo el que viene puesto.",
      "Mobile and tablet: new \"Anchored\" joystick (Settings → Controls → Place the buttons). It appears where you put your finger and stays in that spot while you hold it, even if you move your finger away; lift it and touch somewhere else, and it appears there. The usual \"Floating\" one follows your finger and is still the default."]
